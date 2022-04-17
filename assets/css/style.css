@@ -16,6 +16,11 @@
   font-weight: 900;
 }
 
+@font-face {
+  font-family: "awan";
+  src: url(../fonts/awan/ArbFONTS-AwanZaman-Bold.ttf);
+}
+
 * {
   margin: 0px;
   -webkit-box-sizing: border-box;
@@ -1245,8 +1250,8 @@ header .title-data li span {
   display: block;
   margin-bottom: 10px;
   color: #fff;
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 34px;
+  font-family: "awan";
 }
 
 header .title-data li span:last-child {
@@ -1460,6 +1465,10 @@ header .footer-img {
   height: 400px;
   -o-object-fit: contain;
      object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
   -o-object-position: bottom;
      object-position: bottom;
 }
@@ -1471,7 +1480,7 @@ header .footer-img {
     height: 350px;
   }
   header .footer-img {
-    height: 200px;
+    height: 300px;
     -o-object-position: bottom;
        object-position: bottom;
   }

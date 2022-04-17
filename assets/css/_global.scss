@@ -16,6 +16,11 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: "awan";
+    src: url(../fonts/awan/ArbFONTS-AwanZaman-Bold.ttf);
+}
+
 * {
     margin: 0px;
     box-sizing: border-box;
@@ -41,7 +46,7 @@
     }
 
     &::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(190deg, #0A3341, #AE895F); 
+        background: linear-gradient(190deg, #0A3341 , #AE895F); 
     }
 }
 
